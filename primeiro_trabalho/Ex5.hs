@@ -1,2 +1,2 @@
-gera4 :: [Int] -> [Int]
-gera4 xs = [ x,y | x<-even(xs), y<-[x+1]]
+contaNegMg2:: [Int]->Int
+contaNegMg2 xs = [length(x)| x<-xs, x>=0 && x mod 3 == 0 ]
